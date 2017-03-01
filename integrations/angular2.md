@@ -49,6 +49,8 @@ Even though the setup above will make the `tinymce` global available TypeScript 
 declare var tinymce: any;
 ```
 
+If you cannot find a `typings.d.ts` file, you may create the file and add the code above.
+
 #### Getting the skin
 
 TinyMCE will not work without a **skin**, which simply consists of some fonts and CSS files used by the editor. The easiest way to get this working in a `angular-cli` project is just to copy the `skins` directory from TinyMCE to the `src/assets` directory, either by manually copying the files in the finder/file explorer, or using the terminal with a command something like this:
